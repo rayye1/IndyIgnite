@@ -4,28 +4,22 @@
   <meta charset="UTF-8">
   <title>IndyIgnite</title>
   <link rel="icon" type="image/x-icon" href="../FavIcon.png" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
 </head>
 <body>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="pos">Job Position:</label><br>
-        <input type="text" id="pos" name="position"><br>
-        <label for="industry">Industry:</label><br>
-        <select name="industry" id="industry">
-          <option value="Hospitality/Tourism">Hospitality/Tourism</option>
-          <option value="Food">Food</option>
-          <option value="Health">Health</option>
-          <option value="Other">Other</option>
-        </select><br>
+    <a onclick="switchEmployerJob()"><h1>Indy Ignite</h1></a>
+    <label for="name">Company Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="pos">Job Position:</label><br>
+    <input type="text" id="pos" name="position"><br>
         <!--<label for="description">Description:</label><br>
         <input type="text" id="description" name="position" style="height:200px;font-size:14pt;"><br><br>-->
-        <label for="description">Description:</label><br>
-        <textarea id="des" name="description" rows="20" cols="50">
-            
-        </textarea><br>
-        <input type="submit" value="Submit">
-    </form>
+    <label for="description">Description:</label><br>
+    <textarea id="des" name="description" rows="20" cols="50">
+    </textarea><br>
+    <button id="submit">Submits</button>
 </body>
+<script type="text/javascript" src="../JavaScript/extraFunction.js"></script>
+<script type="text/javascript" src="../JavaScript/jobForm.js"></script>
 </html>
