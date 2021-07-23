@@ -1,0 +1,159 @@
+body, header, nav, main, footer, h1, div,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ffff;
+}
+
+table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+#headerBlock {
+background-color: #002C5F;
+text-align: center;
+height: 100px;
+font-size: 40px;
+color: #ffff;
+}
+
+.button1 {
+    background-color: white; /* Green */
+    border: 2px solid #008CBA;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#loginBlock {
+    left: 0;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 35px;
+    color: #002C5F;
+}
+
+#userBlock {
+    left: 0;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 35px;
+    color: #002C5F;
+}
+
+#jobButton {
+    height:200px;
+    width:200px;
+    background-color: #002C5F;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#videoButton {
+    height:200px;
+    width:200px;
+    background-color: #002C5F;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#quizButton {
+    height:200px;
+    width:200px;
+    background-color: #002C5F;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#identifierBlock {
+    left: 0;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 25px;
+    color: #002C5F;
+}
+
+#Employee {
+    height:200px;
+    width:200px;
+    background-color: #002C5F;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Employer {
+    height:200px;
+    width:200px;
+    background-color: #002C5F;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-color: #002C5F;
+    color: #002C5F;
+    font-size: 2.5em;
+    border: 1px solid black;
+    
+}
+
+tr {
+    border: 1px solid black;
+}
+
+#jobFormBlock {
+    color: #002C5F;
+}
+
+#quiz-container {
+    font-size: 20px;
+    color: #002C5F;
+    text-align: center;
+}
+
+.quiz-table td
+.quiz-table tr{
+    left: 0;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 35px;
+    color: #ffff;
+}

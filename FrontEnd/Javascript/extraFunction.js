@@ -27,3 +27,7 @@ function switchTutVideo(){
 function switchEmployerJob(){
 	window.location.href = '/employerJob';
 }
+
+function switchQuiz(){
+	window.location.href = '/quiz';
+}

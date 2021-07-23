@@ -32,6 +32,7 @@ function populateJobs() {
 			let remove_btn = document.createElement('button');
 			//remove_btn.style.margin = "30px";
 			remove_btn.addEventListener('click', remove(item.employer_username, item.job_id))
+			remove_btn.classList.add("button1");
 			remove_btn.setAttribute('onclick', 'location.reload()');
 			remove_btn.appendChild(document.createTextNode('Remove'));
 			rem.appendChild(remove_btn);

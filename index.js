@@ -34,6 +34,10 @@ app.get('/tutVideo', function (req, res) {
     res.sendFile(path.join(__dirname, '/FrontEnd', '/HTML/tutVideo.html'));
 });
 
+app.get('/quiz', function (req, res) {
+    res.sendFile(path.join(__dirname, '/FrontEnd', '/HTML/quiz.html'));
+});
+
 var server = app.listen(process.env.PORT || 5000, function () {
     console.log('Node server is running..');
 });
