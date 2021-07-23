@@ -1,4 +1,4 @@
-var httpLink = 'http://localhost:5000';
+var httpLink = 'https://indyignite.herokuapp.com';
 
 function switchEmployeeLogin(){
 	window.location.href = '/employeeLogin';
