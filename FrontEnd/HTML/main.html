@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <title>Indy Ignite</title>
   <link rel="icon" type="image/x-icon" href="../FavIcon.png" />
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="../CSS/stylesheet.css" type="text/css">
 </head>
 <body>
+    <div id="headerBlock">
+        <h1>Indy Ignite</h1>
+  <div id="identifierBlock">
     <h2>Are you an ...</h2>
-    <button><a onclick="switchEmployeeLogin();">Employee</a></button>
-    <button><a onclick="switchEmployerLogin();">Employer</a></button>
+    <a onclick="switchEmployeeLogin();"><button class="button" id="Employee">Employee</button></a>
+    <a onclick="switchEmployerLogin();"><button class="button" id="Employer">Employer</button></a>
+  </div>
 </body>
 <script type="text/javascript" src="../JavaScript/extraFunction.js"></script>
 </html>
