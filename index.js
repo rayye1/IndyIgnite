@@ -10,11 +10,11 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/FrontEnd'));
 
-const employeeloginRouter = require('./Backend/Routes/employeeLogin-Route');
-const employeeJobRouter = require('./Backend/Routes/employeeJob-Route')
-const employerloginRouter = require('./Backend/Routes/employerLogin-Route');
-const jobRouter = require('./Backend/Routes/jobForm-route');
-const employerJobRouter = require('./Backend/Routes/employerJob-route');
+const employeeloginRouter = require('./BackEnd/Routes/employeeLogin-Route');
+const employeeJobRouter = require('./BackEnd/Routes/employeeJob-Route')
+const employerloginRouter = require('./BackEnd/Routes/employerLogin-Route');
+const jobRouter = require('./BackEnd/Routes/jobForm-route');
+const employerJobRouter = require('./BackEnd/Routes/employerJob-route');
 
 app.use('/employeeLogin', employeeloginRouter);
 app.use('/employeeJob', employeeJobRouter);
