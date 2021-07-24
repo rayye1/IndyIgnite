@@ -17,7 +17,6 @@ function loginFunction(){
 			window.location.href = '/employerJob';
 			
 		}else{
-			//UserDoesntExist();
 			console.log("Failed to log in user! User doesn't exist.");
 		}
 	})
@@ -40,7 +39,6 @@ function createAccountFunction(){
 		if(res.data.success == 1){
 			console.log("User created!");
 		}else{
-			//UserAlreadyExists();
 			console.log("Failed to create user! Username already taken.");
 		}
 	})

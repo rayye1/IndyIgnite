@@ -1,8 +1,5 @@
 const c = require('../../mysqlconnection.js');
 
-//TODO: Implement
-
-
 exports.getJobs = async(req, res) => {
 
     let username = req.query.username;

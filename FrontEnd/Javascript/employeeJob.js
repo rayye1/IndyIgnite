@@ -10,7 +10,6 @@ function populateJobs() {
         let tableElement = document.getElementById('job-table');
 
         res.data.forEach((item, index) => {
-			// let name = item.username;
             let company = item.company
             let title = item.title
             let description = item.description
