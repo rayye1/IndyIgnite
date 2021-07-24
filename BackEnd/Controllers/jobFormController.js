@@ -2,7 +2,6 @@ const c = require('../../mysqlconnection.js');
 
 exports.jobAdd = async (req, res) => {
 
-	//Get the username and password from the body of the axios POST request.
 	var username = req.body.params.username;
 	var company = req.body.params.company;
 	var position = req.body.params.pos;
